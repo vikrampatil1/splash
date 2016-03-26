@@ -41,16 +41,7 @@ public class Main extends Application {
 
         TabPane tabPane = new TabPane();
 
-        BorderPane borderPane = new BorderPane();
-        //Making the CPU Tab
-            Tab CPUtab = new Tab();
-            CPUtab.setText("CPU");
-            CPUtab.setStyle("-fx-border-color:black; -fx-background-color: grey;");
-            HBox hbox = new HBox();
-            hbox.getChildren().add(new Label(""));
-            hbox.setAlignment(Pos.CENTER);
-            CPUtab.setContent(hbox);
-            tabPane.getTabs().add(CPUtab);
+        
             
         //Making the Memory Tab
             Tab memorytab = new Tab();
