@@ -6,24 +6,7 @@
 package splash;
 
 /**
- * This code get the process list which are currently running(shows in your task manager) in your system and
- * stored at the file named as "process.txt"
- *
- * Remarks:
- * The file is stored at where this java file is available.
- * Chache the file path which you need
- */
 
- 
-import java.io.*;
-import java.util.StringTokenizer;
- 
-/**
- *
- * @author Muneeswaran
- */
-public class GetProcessList
-{
  
  private String GetProcessListData()
  {

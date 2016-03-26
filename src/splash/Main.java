@@ -63,13 +63,7 @@ public class Main extends Application {
             tabPane.getTabs().add(memorytab);
             
             //Making the Disk Tab
-            Tab disktab = new Tab();
-            disktab.setText("Disk");
-            disktab.setStyle("-fx-border-color:black; -fx-background-color: grey;");
-            HBox hbox2 = new HBox();
-            hbox2.getChildren().add(new Label(""));
-            hbox2.setAlignment(Pos.CENTER);
-            disktab.setContent(hbox2);
+       box2);
             tabPane.getTabs().add(disktab);
             
             //Making the Network Tab
