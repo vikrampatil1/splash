@@ -41,41 +41,5 @@ public class Main extends Application {
 
         TabPane tabPane = new TabPane();
 
-        
-            
-        //Making the Memory Tab
-            Tab memorytab = new Tab();
-            memorytab.setText("Memory");
-            memorytab.setStyle("-fx-border-color:black; -fx-background-color: grey;");
-            HBox hbox1 = new HBox();
-            hbox1.getChildren().add(new Label(""));
-            hbox1.setAlignment(Pos.CENTER);
-            memorytab.setContent(hbox1);
-            tabPane.getTabs().add(memorytab);
-            
-            //Making the Disk Tab
-       box2);
-            tabPane.getTabs().add(disktab);
-            
-            //Making the Network Tab
-            Tab nwtab = new Tab();
-            nwtab.setText("Network");
-            nwtab.setStyle("-fx-border-color:black; -fx-background-color: grey;");
-            HBox hbox3 = new HBox();
-            hbox3.getChildren().add(new Label(""));
-            hbox3.setAlignment(Pos.CENTER);
-            nwtab.setContent(hbox3);
-            tabPane.getTabs().add(nwtab);
-            
-            
-        // bind to take available space
-        borderPane.prefHeightProperty().bind(scene.heightProperty());
-        borderPane.prefWidthProperty().bind(scene.widthProperty());
-        
-        borderPane.setCenter(tabPane);
-        root.getChildren().add(borderPane);
-        primaryStage.setScene(scene);
-        primaryStage.show();
-    }
-
+     
 }
